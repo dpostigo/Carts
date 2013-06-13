@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03552EB31769FB9C000F86B4 /* _assets in Resources */ = {isa = PBXBuildFile; fileRef = 03552EB01769FB9C000F86B4 /* _assets */; };
+		03552EB41769FB9C000F86B4 /* _scripts in Resources */ = {isa = PBXBuildFile; fileRef = 03552EB11769FB9C000F86B4 /* _scripts */; };
+		03552EB51769FB9C000F86B4 /* _src in Resources */ = {isa = PBXBuildFile; fileRef = 03552EB21769FB9C000F86B4 /* _src */; };
 		03D8CB271768AA17000CF88A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D8CB261768AA17000CF88A /* Cocoa.framework */; };
 		03D8CB311768AA17000CF88A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03D8CB2F1768AA17000CF88A /* InfoPlist.strings */; };
 		03D8CB331768AA17000CF88A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D8CB321768AA17000CF88A /* main.m */; };
@@ -218,6 +221,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03552EB01769FB9C000F86B4 /* _assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _assets; sourceTree = "<group>"; };
+		03552EB11769FB9C000F86B4 /* _scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _scripts; sourceTree = "<group>"; };
+		03552EB21769FB9C000F86B4 /* _src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _src; sourceTree = "<group>"; };
 		03D8CB231768AA17000CF88A /* Carts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D8CB261768AA17000CF88A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		03D8CB291768AA17000CF88A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -638,6 +644,9 @@
 		03D8CB1A1768AA17000CF88A = {
 			isa = PBXGroup;
 			children = (
+				03552EB01769FB9C000F86B4 /* _assets */,
+				03552EB11769FB9C000F86B4 /* _scripts */,
+				03552EB21769FB9C000F86B4 /* _src */,
 				03D8CB2C1768AA17000CF88A /* BasicMacProject */,
 				03D8CB251768AA17000CF88A /* Frameworks */,
 				03D8CB241768AA17000CF88A /* Products */,
@@ -1671,6 +1680,9 @@
 				03DD35EF1769FA5D000DB1B7 /* .gitignore in Resources */,
 				03DD35F01769FA5D000DB1B7 /* .gitignore in Resources */,
 				03DD35F11769FA5D000DB1B7 /* .gitignore in Resources */,
+				03552EB31769FB9C000F86B4 /* _assets in Resources */,
+				03552EB41769FB9C000F86B4 /* _scripts in Resources */,
+				03552EB51769FB9C000F86B4 /* _src in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
